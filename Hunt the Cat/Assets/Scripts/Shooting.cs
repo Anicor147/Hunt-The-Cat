@@ -9,6 +9,7 @@ public class Shooting : MonoBehaviour
     
     public Transform FirePoint;
     public GameObject bulletPrefab;
+   // public Boss boss;
 
     public float bulletForce = 20f;
     public float firespeed = 0.5f;
@@ -29,6 +30,16 @@ public class Shooting : MonoBehaviour
 
     }
 
+/*
+     void OnCollisionEnter2D(Collision2D col )
+    {
+        if(col.gameObject.name == "Bullet")
+        {
+        boss.TakeDamage(5);
+        Debug.Log("5 Damage");
+        }
+    }
+*/
 
 void Shoot()
 {
