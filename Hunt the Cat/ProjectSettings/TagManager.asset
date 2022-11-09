@@ -12,10 +12,10 @@ TagManager:
   - Arena
   - Water
   - UI
+  - Character + Boss
+  - ChartacterBullet
   - 
-  - 
-  - 
-  - 
+  - BossBullet
   - 
   - 
   - 
