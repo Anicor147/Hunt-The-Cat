@@ -10,6 +10,7 @@ public class Boss : MonoBehaviour
    
      public int maxbHealth = 200;
      public int currentbHealth;
+     public int DamageTaken =10;
     public BossHealthBar BosshealthBar;
 
 
@@ -20,16 +21,6 @@ public class Boss : MonoBehaviour
         
     }
 
-
-
-    void OnCollisionEnter2D(Collision2D col )
-    {
-        
-        TakeDamage(25);
-        Debug.Log("25 Damage");
-    }
-    
-    
 
 
     public void TakeDamage(int damage)
