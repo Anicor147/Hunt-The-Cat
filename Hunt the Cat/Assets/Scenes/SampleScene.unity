@@ -646,7 +646,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531860844}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ce02b177bb42524883ccb649fd877fb, type: 3}
   m_Name: 
@@ -659,7 +659,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531860844}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 140c313e10f1c89448f7d51c3b7d14d3, type: 3}
   m_Name: 
@@ -677,10 +677,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 859a253ce70542343944d44de873ae65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletsAmount: 10
-  startAngle: 90
-  endAngle: 270
-  Firerate: 3
+  bulletsAmount: 90
+  startAngle: 0
+  endAngle: 360
+  Firerate: 0.3
 --- !u!95 &531860861
 Animator:
   serializedVersion: 4
@@ -691,7 +691,7 @@ Animator:
   m_GameObject: {fileID: 531860844}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 44fe988cf1e67324db2df5560eddd6a6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1299,7 +1299,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 200
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1538,7 +1538,7 @@ PrefabInstance:
       objectReference: {fileID: 156001296}
     - target: {fileID: 7301297513342390542, guid: d274b40e63583454bb6bdeaec9c8c51c, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7301297513342390542, guid: d274b40e63583454bb6bdeaec9c8c51c, type: 3}
       propertyPath: moveSpeed
@@ -1558,7 +1558,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7301297513342390543, guid: d274b40e63583454bb6bdeaec9c8c51c, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7301297513342390543, guid: d274b40e63583454bb6bdeaec9c8c51c, type: 3}
       propertyPath: bulletsAmount

@@ -71,10 +71,11 @@ public class TopDownController : MonoBehaviour
     // check Position and Mouse 
     void FixedUpdate() 
     {
+        /*
         Vector2 lookdirection = mousePos - body.position;
         float angle = Mathf.Atan2(lookdirection.y , lookdirection.x) * Mathf.Rad2Deg - 90f;
         body.rotation = angle;
-
+        */
     }
 
     void HandleSpriteFlip()
