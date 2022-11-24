@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 73788517}
   - component: {fileID: 73788519}
   - component: {fileID: 73788518}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,15 +25,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73788516}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.28500003, y: 0.09099992, z: 0}
-  m_LocalScale: {x: 0.0753, y: 0.1698, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9999995, w: 0.0009731669}
+  m_LocalPosition: {x: 0.1183, y: -0.0567, z: 0}
+  m_LocalScale: {x: 0.98950744, y: 0.80771744, z: 4.7568755}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8168914761945471912}
   m_Father: {fileID: 8168914760787522654}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.888}
 --- !u!212 &73788519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 6f82619039e833448922a5752e5063e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -176,8 +176,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -1695850961, guid: 639aee2ace8b5be45ab08f7b0a7b23af, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: b173829f2713aee4f815c6f7785b20a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -223,16 +223,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 8168914760787522652}
   spriteRenderer: {fileID: 8168914760787522653}
-  nSprites:
-  - {fileID: -1695850961, guid: 639aee2ace8b5be45ab08f7b0a7b23af, type: 3}
-  neSprites:
-  - {fileID: -1801544101, guid: 639aee2ace8b5be45ab08f7b0a7b23af, type: 3}
-  eSprites:
-  - {fileID: 778576656, guid: 639aee2ace8b5be45ab08f7b0a7b23af, type: 3}
-  seSprites:
-  - {fileID: -1540128930, guid: 639aee2ace8b5be45ab08f7b0a7b23af, type: 3}
-  sSprites:
-  - {fileID: -1856601373, guid: 639aee2ace8b5be45ab08f7b0a7b23af, type: 3}
   cam: {fileID: 0}
   walkSpeed: 1.5
   frameRate: 6
@@ -308,7 +298,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8168914761945471912}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +313,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8168914761945471927}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.8074372, y: 0.17609017, z: 0}
+  m_LocalPosition: {x: 0.022, y: 0.047, z: 0}
   m_LocalScale: {x: 13.280211, y: 5.8892817, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -18,7 +18,7 @@ TagManager:
   - BossBullet
   - Weapon
   - Boss
-  - 
+  - Arena
   - 
   - 
   - 
@@ -39,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Arena
+    uniqueID: 807476273
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

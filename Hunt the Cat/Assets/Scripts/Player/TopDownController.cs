@@ -11,12 +11,13 @@ public class TopDownController : MonoBehaviour
     public SpriteRenderer spriteRenderer;
 
     //Create Zone to put Sprite
+    /*
     public List<Sprite> nSprites;
     public List<Sprite> neSprites;
     public List<Sprite> eSprites;
     public List<Sprite> seSprites;
     public List<Sprite> sSprites;
-
+*/
     public Camera cam;
 
 
@@ -49,9 +50,9 @@ public class TopDownController : MonoBehaviour
         //set walk based on direction
         body.velocity = direction * walkSpeed;
 
-            HandleSpriteFlip();
+           // HandleSpriteFlip();
 
-      List<Sprite> directionSprites = GetSpriteDirection();
+     /* List<Sprite> directionSprites = GetSpriteDirection();
 
     
        if(directionSprites != null)
@@ -64,20 +65,12 @@ public class TopDownController : MonoBehaviour
 
         }
  
-       mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+  */
  
     }
 
-    // check Position and Mouse 
-    void FixedUpdate() 
-    {
-        /*
-        Vector2 lookdirection = mousePos - body.position;
-        float angle = Mathf.Atan2(lookdirection.y , lookdirection.x) * Mathf.Rad2Deg - 90f;
-        body.rotation = angle;
-        */
-    }
-
+   
+/*
     void HandleSpriteFlip()
     {
              //handle direction
@@ -132,4 +125,5 @@ public class TopDownController : MonoBehaviour
         return selectedSprites;
 
     }
+    */
 }
