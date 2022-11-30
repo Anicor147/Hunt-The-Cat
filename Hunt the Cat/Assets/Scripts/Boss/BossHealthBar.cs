@@ -19,6 +19,8 @@ public class BossHealthBar : MonoBehaviour
         bslider.value = bhealth;
     }
     
+
+
     public void DeadBoss()
     {
         Destroy(gameObject);
