@@ -26,12 +26,18 @@ public class TopDownController : MonoBehaviour
     Vector2  direction;
     Vector2 mousePos;
 
+    public int maxHealth = 100;
+    public int currentHealth;
+
+    public HealthBar healthBar;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
         
     }
 
