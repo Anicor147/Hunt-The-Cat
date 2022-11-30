@@ -11,7 +11,7 @@ public int DamageReceveid;
 
 public void OnParticleCollisionEnter2D(Collision2D coll)
 {
-    Debug.Log(" ");
+   
     ph.TakeDamage(DamageReceveid);
 }
 

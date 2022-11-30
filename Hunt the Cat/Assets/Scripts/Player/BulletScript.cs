@@ -24,7 +24,7 @@ public class BulletScript : MonoBehaviour
         
           Debug.Log(Boss);
        Boss.TakeDamage(Damage);
-       Debug.Log("10 Damage");
+       
         
   
     }

@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     
      public int maxHealth = 200;
      public int currentHealth;
-     public int DamageTaken =10;
+     public int DamageTaken;
     public HealthBar healthBar;
   void Start()
     {
@@ -24,7 +24,7 @@ public class PlayerHealth : MonoBehaviour
 
         if(currentHealth == 0)
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene("Dead");
         }
     }
 
@@ -34,7 +34,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D col)
     {
-    Debug.Log("DamageTaken");
+
     TakeDamage(DamageTaken);
     }
 

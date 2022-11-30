@@ -17,7 +17,7 @@ public class WeaponController : MonoBehaviour
 
          
 
-          Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         float angle = Mathf.Atan2(mousePos.y , mousePos.x) * Mathf.Rad2Deg -90 ;  
 
         Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
