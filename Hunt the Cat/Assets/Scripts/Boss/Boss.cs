@@ -15,6 +15,7 @@ public class Boss : MonoBehaviour
      private int pourcentage;
     public BossHealthBar BosshealthBar;
       public Sprite BossAttackMode;
+      
    
      void Start()
     {
@@ -44,15 +45,18 @@ public class Boss : MonoBehaviour
     {
         currentbHealth -= damage;
         BosshealthBar.SetBossHealth(currentbHealth);
-        
-         this.gameObject.GetComponent<SpriteRenderer>().sprite = BossAttackMode; 
+
+       
 
     
 
        if(currentbHealth <= 490)
         {
-          
+           
+           this.gameObject.GetComponent<SpriteRenderer>().sprite = BossAttackMode; 
+
            gameObject.GetComponent<BossMovement>().enabled = true;
+           
            gameObject.GetComponent<BulelPattern2>().enabled = true;                             
         }
         if(currentbHealth <=470 )

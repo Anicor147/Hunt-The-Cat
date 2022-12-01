@@ -10,6 +10,7 @@ public class Shooting : MonoBehaviour
     public Transform FirePoint;
     public GameObject bulletPrefab;
     AudioSource Audio;
+   
     
 
     public float bulletForce = 20f;
@@ -26,14 +27,11 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         
-
-
-       
-       
-
-        if(Input.GetMouseButton(0) )
-        {
+      
+            if(Input.GetMouseButton(0) )
+            {
                
                 
               if(Time.time > ReadyForNextShot)
@@ -43,12 +41,10 @@ public class Shooting : MonoBehaviour
                 }
             
               Shake.Instance.ShakeCamera(ShakeIntensity,ShakeTime);
-
-       
+            }
+        
+        
     }
-
-    }
-
 
 
 
