@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    
+
 public void ExitButton()
 {
     Application.Quit();
@@ -17,5 +20,8 @@ public void ExitButton()
 public void StartGame()
 {
 SceneManager.LoadScene("SampleScene");
+
 }
+
+
 }
