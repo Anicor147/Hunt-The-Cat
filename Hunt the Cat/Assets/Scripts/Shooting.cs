@@ -9,6 +9,7 @@ public class Shooting : MonoBehaviour
     
     public Transform FirePoint;
     public GameObject bulletPrefab;
+    AudioSource Audio;
     
 
     public float bulletForce = 20f;
@@ -25,12 +26,17 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         
+
+
+       
+       
+
         if(Input.GetMouseButton(0) )
         {
-
-                if(Time.time > ReadyForNextShot)
+               
+                
+              if(Time.time > ReadyForNextShot)
                 {
                     ReadyForNextShot = Time.time +1/firespeed;
                     Shoot();
@@ -38,13 +44,12 @@ public class Shooting : MonoBehaviour
             
               Shake.Instance.ShakeCamera(ShakeIntensity,ShakeTime);
 
-
-        }    
+       
+    }
 
     }
 
 
- 
 
 
 void Shoot()
@@ -52,6 +57,8 @@ void Shoot()
    if(Time.time > -1f)
     {
 
+        
+      
     GameObject bullet = Instantiate(bulletPrefab , FirePoint.position , FirePoint.rotation);
 
     Rigidbody2D body = bullet.GetComponent<Rigidbody2D>();
@@ -65,3 +72,6 @@ void Shoot()
 
 
 }
+
+
+    
