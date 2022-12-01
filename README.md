@@ -1,7 +1,7 @@
 # 
-#1 Hunt the Cat
+#1 Hunt the Cat?
 
-Hunt the cat is a bullet Hell type of game
+Hunt the cat? is a bullet Hell type of game
 
 Kill the boss before he kills you
 
