@@ -2,7 +2,7 @@
 #1 Hunt the Cat?
 
 Hunt the cat? is a bullet Hell type of game
-
+It turns out the cat is not a cat
 Kill the boss before he kills you
 
 Controls:
